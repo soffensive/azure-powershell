@@ -17,13 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAssemblyLoadC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authenticators", "..\Accounts\Authenticators\Authenticators.csproj", "{273AA0BD-A4B9-45CF-86E6-898B6F7F4B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.Communication", "Communication.Autorest\Az.Communication.csproj", "{8608255E-6E17-44FE-AA27-20431844F43C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication", "Communication\Communication.csproj", "{BC377B3E-760F-4C72-8E2B-64F295F35AC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.EmailService", "EmailService.Autorest\Az.EmailService.csproj", "{FC1241C9-8A04-4E0D-9C8E-658CCD5C0B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.Communication", "..\..\generated\Communication\Communication.Autorest\Az.Communication.csproj", "{873DCA43-5C4E-4D97-9A35-315F927FEEEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.EmailServicedata", "EmailServicedata.Autorest\Az.EmailServicedata.csproj", "{695CDAA1-885B-48EA-B42C-E4B74620FE00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.EmailService", "..\..\generated\Communication\EmailService.Autorest\Az.EmailService.csproj", "{B5307CF2-1D8F-4DCB-9301-C288146D50ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az.EmailServicedata", "..\..\generated\Communication\EmailServicedata.Autorest\Az.EmailServicedata.csproj", "{5811D1B6-3CDD-4CAE-AD40-868847EF037B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,22 +58,22 @@ Global
 		{273AA0BD-A4B9-45CF-86E6-898B6F7F4B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273AA0BD-A4B9-45CF-86E6-898B6F7F4B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273AA0BD-A4B9-45CF-86E6-898B6F7F4B80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8608255E-6E17-44FE-AA27-20431844F43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8608255E-6E17-44FE-AA27-20431844F43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8608255E-6E17-44FE-AA27-20431844F43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8608255E-6E17-44FE-AA27-20431844F43C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC377B3E-760F-4C72-8E2B-64F295F35AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC377B3E-760F-4C72-8E2B-64F295F35AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC377B3E-760F-4C72-8E2B-64F295F35AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC377B3E-760F-4C72-8E2B-64F295F35AC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC1241C9-8A04-4E0D-9C8E-658CCD5C0B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC1241C9-8A04-4E0D-9C8E-658CCD5C0B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC1241C9-8A04-4E0D-9C8E-658CCD5C0B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC1241C9-8A04-4E0D-9C8E-658CCD5C0B23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{695CDAA1-885B-48EA-B42C-E4B74620FE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{695CDAA1-885B-48EA-B42C-E4B74620FE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{695CDAA1-885B-48EA-B42C-E4B74620FE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{695CDAA1-885B-48EA-B42C-E4B74620FE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873DCA43-5C4E-4D97-9A35-315F927FEEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873DCA43-5C4E-4D97-9A35-315F927FEEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873DCA43-5C4E-4D97-9A35-315F927FEEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873DCA43-5C4E-4D97-9A35-315F927FEEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5307CF2-1D8F-4DCB-9301-C288146D50ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5307CF2-1D8F-4DCB-9301-C288146D50ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5307CF2-1D8F-4DCB-9301-C288146D50ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5307CF2-1D8F-4DCB-9301-C288146D50ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5811D1B6-3CDD-4CAE-AD40-868847EF037B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5811D1B6-3CDD-4CAE-AD40-868847EF037B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5811D1B6-3CDD-4CAE-AD40-868847EF037B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5811D1B6-3CDD-4CAE-AD40-868847EF037B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BDECA744-485E-4FBF-BDBC-D58635179F45} = {8C6025CF-0F63-49CE-8FBE-8275AFC0AD14}
